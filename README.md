@@ -1,4 +1,4 @@
-<p align="center">
+<p>
   <strong>AI vs Human Text Detection System</strong>
 </p>
 
