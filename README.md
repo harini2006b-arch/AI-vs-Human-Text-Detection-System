@@ -1,5 +1,11 @@
 # AI vs Human Text Detection System
 
+## Project Structure
+Project/
+├── apps.py
+├── model.py
+├── Project on AI vs Human generated-text.ipynb
+    
 ## Overview
 This project implements a supervised machine learning system to classify whether a given text is AI-generated or human-written.  
 It combines textual representations with linguistic features to improve classification performance and interpretability.
@@ -9,12 +15,10 @@ It combines textual representations with linguistic features to improve classifi
 - Capture writing style differences using hybrid feature engineering  
 - Provide confidence-based decision outputs for better usability  
 
-## Methodology
-
 ### Data Preprocessing
 - Convert text to lowercase  
 - Remove punctuation  
-- Encode labels: AI → 1, Human → 0  
+- Encode labels: AI - 1, Human - 0  
 
 ### Feature Engineering
 - TF-IDF vectorization with unigram and bigram representations  
@@ -37,7 +41,7 @@ Metrics used:
 - Recall  
 - F1-score  
 
-Result: Random Forest achieved the highest overall performance with balanced precision, recall, and F1-score.
+Result: XGBoost achieved the highest overall performance with balanced precision, recall, and F1-score.
 
 ## Intelligent Decision Layer
 Predictions are categorized based on confidence levels:
@@ -63,4 +67,5 @@ Random Forest performs best overall, while other models contribute to comparativ
 - Integration with advanced NLP models (e.g., BERT, RoBERTa)  
 - Deployment as a scalable web application or API  
 
-## Project Structure
+
+
