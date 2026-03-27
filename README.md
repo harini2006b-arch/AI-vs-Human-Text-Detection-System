@@ -1,26 +1,16 @@
 # AI vs Human Text Detection System
-
-## Project Structure
-Project/
-├── apps.py
-├── model.py
-└── Project on AI vs Human generated-text.ipynb
-
     
 ## Overview
 This project implements a supervised machine learning system to classify whether a given text is AI-generated or human-written.  
 It combines textual representations with linguistic features to improve classification performance and interpretability.
-
 ## Objectives
 - Classify input text into AI-generated or human-written categories  
 - Capture writing style differences using hybrid feature engineering  
 - Provide confidence-based decision outputs for better usability  
-
 ### Data Preprocessing
 - Convert text to lowercase  
 - Remove punctuation  
 - Encode labels: AI - 1, Human - 0  
-
 ### Feature Engineering
 - TF-IDF vectorization with unigram and bigram representations  
 - Linguistic features: character count, word count, average word length, punctuation density  
