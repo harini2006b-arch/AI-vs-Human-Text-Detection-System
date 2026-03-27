@@ -1,4 +1,6 @@
-<p><b style="font-size:60px;">AI vs Human Text Detection System</b></p>
+<p align="center">
+  <strong>AI vs Human Text Detection System</strong>
+</p>
 
 <p><b style="font-size:35px;">Overview</b></p>
 
