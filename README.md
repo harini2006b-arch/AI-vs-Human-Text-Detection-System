@@ -10,8 +10,6 @@ It combines textual representations with linguistic features to improve classifi
 The dataset used for this project was obtained from Kaggle:  
 [AI vs Human Text Classification Dataset](https://www.kaggle.com/datasets/gulfan/ai-vs-human-text-classification-dataset?utm_source=chatgpt.com)
 
-This dataset contains labeled text samples categorized as either AI-generated or human-written and is designed for binary text classification tasks. :contentReference[oaicite:1]{index=1}
-
 <p><b>Objectives</b></p>
 
 - Classify input text into AI-generated or human-written categories  
