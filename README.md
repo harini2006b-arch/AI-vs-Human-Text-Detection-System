@@ -4,7 +4,8 @@
 Project/
 ├── apps.py
 ├── model.py
-├── Project on AI vs Human generated-text.ipynb
+└── Project on AI vs Human generated-text.ipynb
+
     
 ## Overview
 This project implements a supervised machine learning system to classify whether a given text is AI-generated or human-written.  
