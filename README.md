@@ -5,7 +5,7 @@ This project implements a supervised machine learning system to classify whether
 It combines textual representations with linguistic features to improve classification performance and interpretability.
 ## Objectives
 - Classify input text into AI-generated or human-written categories  
-- Capture writing style differences using hybrid feature engineering  
+- Capture writing style differences using hybrid feature engineering  .
 - Provide confidence-based decision outputs for better usability  
 ### Data Preprocessing
 - Convert text to lowercase  
