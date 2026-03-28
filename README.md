@@ -56,7 +56,7 @@ Predictions are categorized based on confidence levels:
 
 - Confidence ≥ 0.80 - Acceptable  
 - 0.60 ≤ Confidence < 0.80 - Needs Review  
-- Confidence < 0.60 → Uncertain  
+- Confidence < 0.60 - Uncertain  
 
 This improves interpretability and provides actionable insights.
 
