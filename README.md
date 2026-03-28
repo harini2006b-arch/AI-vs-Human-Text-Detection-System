@@ -54,8 +54,8 @@ Result: XGBoost achieved the highest overall performance with balanced precision
 
 Predictions are categorized based on confidence levels:
 
-- Confidence ≥ 0.80 → Acceptable  
-- 0.60 ≤ Confidence < 0.80 → Needs Review  
+- Confidence ≥ 0.80 - Acceptable  
+- 0.60 ≤ Confidence < 0.80 - Needs Review  
 - Confidence < 0.60 → Uncertain  
 
 This improves interpretability and provides actionable insights.
@@ -77,5 +77,5 @@ Random Forest performs best overall, while other models contribute to comparativ
 <p><b>Future Work</b></p>
 
 - Hyperparameter tuning for improved performance  
-- Integration with advanced NLP models such as BERT and RoBERTa  
+- Integration with advanced NLP models such as BERT  
 - Deployment as a scalable web application or API
